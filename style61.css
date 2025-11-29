@@ -1,0 +1,324 @@
+
+.background1{width: 300px;
+             background-color:aquamarine}
+
+.background2{
+             width: 300px;
+             height: 200px;
+             background-image:url("写真.jpg"); /*相対パスで書く必要あり*/
+             background-size:cover;
+             color: white;
+             }
+
+.background3{
+             width: 1000px;
+             height: 500px;
+             background-image:url("写真.jpg"); 
+             background-size:cover;
+             background-attachment: fixed;
+             color:white;
+             }
+
+.background4{
+             width: 300px;
+             height: 200px;
+             background-image:url("写真.jpg");
+             background-position: center; 
+             color:white;
+}
+
+.background5{
+             width: 300px;
+             height: 200px;
+             background-image:url("写真.jpg");
+             background-size: 60px 50px;
+             background-repeat: repeat;
+             color:white;
+}
+
+.background6{
+             width: 300px;
+             height: 200px;
+             background:url("写真.jpg") center center;
+             background-size: cover;
+             color:white;
+             }
+
+.border7{
+         border-bottom:3px solid;        
+}
+
+.border8{
+         width:300px;
+         border-width:2px;
+         border-style: solid;
+         border-color:brown;
+        }
+
+.border9{
+         border-left: 3px solid;
+         }
+
+.border10{
+          width:300px;
+          border-right: 3px solid;
+}
+
+.border11{
+          width:300px;
+          border-top: 3px solid;
+}
+
+.border12{
+          width:300px;
+          border-style: solid; 
+        }
+
+.border13{
+          width:300px;
+          border-style: solid;
+          border-width:3px;          
+}
+
+.border14{
+          width:300px;
+          border:3px solid brown;          
+}
+
+.color15{
+         color:blue;
+}
+
+.cursor16{
+          height:200px;
+          cursor:crosshair;
+}
+
+.display17{
+           height:200px;
+           display:inline;         
+}
+
+.filter18{
+          height:200px;
+          background:url("写真.jpg") center center;
+          background-size: cover;
+          filter:grayscale(100%);
+}
+
+.float19{
+         height:100px;
+         width: 80px;
+         float: left; 
+         background-color: lightblue;
+}
+
+.float20{
+         clear: left;     
+}
+
+.font21{
+        font-family: "MS PGothic","Noto serif Japanese" sans-serif;
+}
+
+.font22{
+        font-size:36px;
+}
+
+.font23{
+        font-weight:bold;
+}
+
+.font24{
+        font:bold 36px "MS PGothic",sans-serif;
+}
+
+.height25{
+         height:300px;
+        }
+
+.width26{
+         width:200px;
+}
+
+.letter27{
+          letter-spacing:5px;
+}
+
+.list-style28{
+              line-height: 5px;
+}
+
+.list-style29{
+              list-style-image: url(写真.jpg);
+}
+
+.list-style30{
+              list-style-position: inside;
+}
+
+.list-style31{
+              list-style-type:decimal;             
+}
+
+.list-style32{
+              list-style:square outside;
+}
+
+.margin33{
+          margin-bottom:200px;        
+}
+
+.margin34{
+          margin-left: 200px;
+}
+
+.margin35{
+          margin-right: 200px;
+}
+
+.margin36{
+          margin-top:200px;
+}
+
+.margin37{
+          margin : 100px;
+        }
+
+.padding38{
+           padding-bottom:100px;
+}
+
+.padding39{
+           padding-left:100px;
+}
+
+.padding40{
+           padding-right:100px;        
+}
+
+.padding41{
+           padding-top:100px;
+}
+
+.padding42{
+           padding:100px;
+}
+
+.overflow43{
+            width: 100px;
+            overflow: scroll;
+}
+
+.position44{
+            width:100px;
+            height:200px;        
+}
+
+.position44-1{
+             position:relative;
+             top:20px;
+}
+
+.position45{
+            text-align:center;            
+}
+
+.position46{
+            text-decoration:underline;
+}
+
+.position47{
+            text-indent:2em;
+}
+
+.vertical48{
+            vertical-align: top;
+}
+
+.visibility49{
+            visibility: hidden;
+}
+
+.index50{
+         position:relative;
+         width: 200px;
+         height:200px;
+         background-color: green;
+}
+
+.index50-1{
+         width:100px;
+         height:100px;
+         color: white;
+         position:absolute ;
+         }
+
+.index50-2{
+          background:blue;
+          top: 20px;
+          left:20px;
+          z-index:1;       
+}
+
+.index50-3{
+          background:red;
+          top:40px;
+          left:40px;
+          z-index:5;
+}
+
+.size1{
+         width:100px;
+         height:100px;
+         background-color: blueviolet;
+}
+
+.PseudoClass1:hover{
+                    background-color:green;            
+}
+
+.PseudoClass2:active{
+                     background-color: green;
+}
+.PseudoClass2:focus{
+                   background-color:lightblue;
+}
+
+#opt-in:checked + label {
+                   color: red;
+}
+
+.brother4 p:first-child{
+                        color:red;
+}
+
+.brother5 p:first-of-type{
+                        color:red
+}
+
+.brother6 p:last-child{
+                        color:red;
+}
+
+.brother7 p:not(:last-child){
+                             color:red;
+}
+
+.brother8 :nth-child(1){
+                        color:red;
+                        }
+
+.brother9 button:active {
+                 color:red;
+}
+
+.elements1::after{
+                content:"test";
+                color:red;
+}
+
+.elements2::before{
+                content:"test";
+                color:red;
+}
